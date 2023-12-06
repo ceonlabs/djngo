@@ -1720,9 +1720,7 @@ checksum = "bd0c93bb4b0c6d9b77f4435b0ae98c24d17f1c45b2ff844c6151a07256ca923b"
 name = "djngo"
 version = "0.1.0"
 dependencies = [
- "arrow",
  "bevy",
- "gdal",
  "geoarrow",
 ]
 
@@ -1949,33 +1947,6 @@ dependencies = [
  "futures-io",
  "parking",
  "pin-project-lite",
-]
-
-[[package]]
-name = "gdal"
-version = "0.16.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6639365794fa1f35f36f8cd3e2ea21c94c9b04aa8d9ee0d0f3324621efeb0800"
-dependencies = [
- "bitflags 2.4.1",
- "chrono",
- "gdal-sys",
- "geo-types",
- "libc",
- "once_cell",
- "semver",
- "thiserror",
-]
-
-[[package]]
-name = "gdal-sys"
-version = "0.9.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ab73a6c9d0d620fb5b07e02ffbb8ae08f053299cbe5db0c1bbe1d58cb33e3f38"
-dependencies = [
- "libc",
- "pkg-config",
- "semver",
 ]
 
 [[package]]

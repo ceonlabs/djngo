@@ -33,7 +33,7 @@ fn setup(
         },
         Emitter::default(),
         AudioBundle {
-            source: asset_server.load("sounds/Windless Slopes.ogg"),
+            source: asset_server.load("hell-bound-train-audio.ogg"),
             settings: PlaybackSettings::LOOP.with_spatial(true),
         },
     ));
