@@ -1,0 +1,8 @@
+[package]
+name = "djngo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = { git = "https://github.com/bevyengine/bevy" }
+geoarrow = { git = "https://github.com/geoarrow/geoarrow-rs" }
